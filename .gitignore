@@ -2,7 +2,6 @@
 /public/storage
 /public/bower_components
 /storage/*.key
-/config
 /vendor
 /.idea
 Homestead.json
