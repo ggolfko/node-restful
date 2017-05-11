@@ -1,15 +1,15 @@
 # Building a RESTful API in Node JS, Express, MongoDB
 # Application structures
 ```
-    - models <!-- our user model -->
+    - models                        <!-- our user model -->
     ------ user.js  
-    - routes <!-- all the routes for our application -->
+    - routes                        <!-- all the routes for our application -->
     ------ users.js    
     - config
-    ------ config.js  <!-- will hold our database connection settings -->
-    - package.json      <!-- handle our npm packages -->
-    - app.js         <!-- setup our application -->
-    - server.js         <!-- setup our application -->
+    ------ config.js                <!-- will hold our database connection settings -->
+    - package.json                  <!-- handle our npm packages -->
+    - app.js                        <!-- setup our application -->
+    - server.js                     <!-- setup our application -->
 ```
 
 # Installation & Configuration
