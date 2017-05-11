@@ -27,7 +27,7 @@ router.get('/', function(req, res) {
 // ----------------------------------------------------
 router.route('/users')
 
-  // create a bear (accessed at POST http://localhost:8080/users)
+  // create a user (accessed at POST http://localhost:8080/api/users)
   .post(function(req, res) {
 
     User.create({
@@ -47,7 +47,7 @@ router.route('/users')
 
   })
 
-  // get all the bears (accessed at GET http://localhost:8080/api/users)
+  // get all the user (accessed at GET http://localhost:8080/api/users)
   .get(function(req, res) {
 
     User.find({}, function(err, users) {
