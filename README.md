@@ -8,8 +8,9 @@
 5. View in browser at [http://localhost:8080/api](http://localhost:8080/api)
 
 # RESTful API
-`/api/users` method `GET`                 
-`/api/users` method `POST`
-`/api/users/:user_id` method `GET`
-`/api/users/:user_id` method `PUT`
-`/api/users/:user_id` method `DELETE`
+* create a user (accessed at POST http://localhost:8080/api/users)
+* get all the user (accessed at GET http://localhost:8080/api/users)
+* get the user with that id (accessed at GET http://localhost:8080/api/users/:user_id)
+* update the user with this id (accessed at PUT http://localhost:8080/api/users/:user_id)
+* delete the user with this id (accessed at DELETE http://localhost:8080/api/users/:user_id)
+
